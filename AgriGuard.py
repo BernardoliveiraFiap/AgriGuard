@@ -59,7 +59,7 @@ def InformarTratamento():
                   return '\nEssa praga não está em nosso sistema'
       
 
-      #Aveia
+      
       elif nomePlanta == 'AVEIA':
             if nomePraga == 'LAGARTA-DO-CARTUCHO' or nomePraga == 'LAGARTA DO CARTUCHO':
                   return spodovir
@@ -67,7 +67,7 @@ def InformarTratamento():
                   return '\nEssa praga não está em nosso sistema'
       
 
-      #Café
+      
       elif nomePlanta == 'CAFÉ' or nomePlanta == 'CAFE':
             if nomePraga == 'LAGARTA HELICOVERPA':
                   return bacillus
@@ -75,7 +75,7 @@ def InformarTratamento():
                   return '\nEssa praga não está em nosso sistema'
 
 
-      #Cana-de-açúcar
+      
       elif nomePlanta == 'CANA-DE-AÇÚCAR' or nomePlanta == 'CANA-DE-AÇUCAR' or nomePlanta == 'CANA-DE-ACUCAR' or nomePlanta == 'CANA DE AÇÚCAR' or nomePlanta == 'CANA DE AÇUCAR' or nomePlanta == 'CANA DE AÇUCAR' or nomePlanta == 'CANA DE ACUCAR':
             if nomePraga == 'LAGARTA-DO-CARTUCHO' or nomePraga == 'LAGARTA DO CARTUCHO':
                   return spodovir
@@ -83,7 +83,7 @@ def InformarTratamento():
                   return '\nEssa praga não está em nosso sistema'
       
 
-      #Feijão
+      
       elif nomePlanta == 'FEIJAO' or nomePlanta == 'FEIJÃO':
             if nomePraga == 'LAGARTA-DO-CARTUCHO' or nomePraga == 'LAGARTA DO CARTUCHO':
                   return spodovir
@@ -93,7 +93,7 @@ def InformarTratamento():
                   return '\nEssa praga não está em nosso sistema'
       
 
-      #Girassol
+      
       elif nomePlanta == 'GIRASSOL':
             if nomePraga == 'PERCEVEJO-VERDE-PEQUENO' or nomePraga == 'PERCEVEJO VERDE PEQUENO':
                   return f'{engeoPlenoS}\nObservação: de 300 a 400 mL por hectare com no máximo 2 aplicações, uma a cada 7 dias; o volume da calda deve ser de 150 litros por hectare'
@@ -164,7 +164,7 @@ def InformarTratamento():
             return '\nEssa planta não está em nosso sistema'
 
 
-#Função para fazer o cadastro
+
 def Cadastro():
       confirmCadastroup = ''
       print('\nPor favor realize o cadastro: ')
@@ -248,7 +248,7 @@ def Cadastro():
                         print("Digite um CEP válido com 8 números e sem indicadores.")
             print("\nConfirme as informações: ")
 
-            #Para o usuário ver as informações que passou ao sistema
+            
             while confirmCadastroup != "1" and confirmCadastroup != "SIM" and confirmCadastroup != "2" and confirmCadastroup != "NAO" and confirmCadastroup != "NÃO" :
             
                   print("\n--- Dados Pessoais ---")
@@ -283,7 +283,7 @@ def Cadastro():
                   elif confirmCadastroup == "2" or confirmCadastroup == "NAO" or confirmCadastroup == "NÃO":
                         print("Faça novamente o cadastro!")
 
-      #Para o usuário informar quantos drones deseja comprar
+      
       qntdDrone = int(input("\nQuantos drones você deseja comprar? \nDrones: "))
 
       if qntdDrone > 0 and qntdDrone < 999:
@@ -292,7 +292,7 @@ def Cadastro():
       else:
             print("O limite de drones é de 1 a 999.")
 
-# Função para receber as informações do usuário e enviar para análise
+
 def IndicarTratamento():
       print('\n--Preencha as informações: ---')
 
