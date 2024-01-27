@@ -25,7 +25,7 @@ def InformarTratamento():
       
       nomePraga = nomePraga.upper()
 
-      #Algodão
+      
       if nomePlanta == 'ALGODÃO' or nomePlanta == 'ALGODAO':
             if nomePraga == 'LAGARTA-DO-CARTUCHO' or nomePraga == 'LAGARTA DO CARTUCHO':
                   return spodovir
@@ -48,7 +48,7 @@ def InformarTratamento():
                   return '\nEssa praga não está em nosso sistema'
       
 
-      #Arroz
+      
       elif nomePlanta == 'ARROZ':
             if nomePraga == 'LAGARTA-DO-CARTUCHO' or nomePraga == 'LAGARTA DO CARTUCHO':
                   return spodovir
