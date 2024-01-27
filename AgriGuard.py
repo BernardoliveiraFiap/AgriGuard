@@ -1,6 +1,5 @@
-#Função que compara cada tipo de plantação com cada praga e retorna o tratamento mais adequado para a situação
 def InformarTratamento():
-      #As quatro variáveis servem para armazenar o tipo de tratamento adequado
+      
       spodovir = ('\n---Tratamento para a sua plantação: Spodovir---'
                   '\n1. É um biodefensivo e inseticida microbiológico'
                   '\n2. Deve ser utilizado assim que a praga for identificada ou de 10 a 22 dias após a germinação das plantações'
@@ -23,8 +22,7 @@ def InformarTratamento():
       nomePlanta = input('\nQual o nome da plantação atacada? ')
       nomePraga = input('Qual o nome da praga? ')
 
-      #Para transformar a informação passada pelo usuário em maiúsculo, assim evita muitos or nas comparações de strings
-      nomePlanta = nomePlanta.upper()
+      
       nomePraga = nomePraga.upper()
 
       #Algodão
@@ -304,7 +302,7 @@ def IndicarTratamento():
       return "\nObrigado pelas informações. Elas serão analisadas e, se estiverem corretas, serão incluídas no sistema PlanTech."
 
 
-#Menu de opções
+
 opcaoMenu = 0
 while opcaoMenu != 9:
       print('\nSeja bem vindo à PlanTech! No que podemos te ajudar?'
@@ -320,7 +318,7 @@ while opcaoMenu != 9:
             '\n9. Encerrar')
       opcaoMenu = int(input('Selecione uma das opções acima: '))
 
-#Opção 1 do menu: desejo saber mais sobre a missão da PlanTech
+
       if opcaoMenu == 1:
             print('\n---- PlanTech ----'
                         + '\n A fome e a insegurança alimentar são problemas mundiais que afetam milhões de pessoas.'
