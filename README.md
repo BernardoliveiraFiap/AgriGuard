@@ -8,4 +8,4 @@ Os benefícios incluem a detecção precoce de pragas, redução de perdas de al
 
 O sistema oferece diversas funcionalidades, incluindo informações sobre a missão da PlanTech, detalhes sobre o funcionamento do drone, simulação de compra do drone, recomendação de tratamentos para pragas, informações sobre a equipe do projeto, possibilidade de indicar tratamentos ausentes e fornecer feedback.
 
-O programa de computador associado ao projeto, chamado "plantech.py", possui instruções de uso que incluem o download do arquivo, execução no terminal e escolha de opções de 1 a 9 no menu apresentado. As funcionalidades incluem interação simulada para compra de drones, identificação de pragas, feedback e muito mais. O programa não requer dependências específicas para sua execução.
+O programa de computador associado ao projeto, chamado "AgriGuard.py", possui instruções de uso que incluem o download do arquivo, execução no terminal e escolha de opções de 1 a 9 no menu apresentado. As funcionalidades incluem interação simulada para compra de drones, identificação de pragas, feedback e muito mais. O programa não requer dependências específicas para sua execução.
