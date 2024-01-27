@@ -1,4 +1,4 @@
-O projeto "PlanTech" propõe uma solução inovadora para diminuir o desperdício de alimentos e promover o cultivo saudável. A principal ferramenta é um drone robô equipado com inteligência artificial (IA) generativa e infravermelho para detectar pragas nas plantações em estágios iniciais. O drone fornece informações sobre a localização e o tipo de praga ao agricultor, permitindo a intervenção rápida.
+O projeto "AgriGuard" propõe uma solução inovadora para diminuir o desperdício de alimentos e promover o cultivo saudável. A principal ferramenta é um drone robô equipado com inteligência artificial (IA) generativa e infravermelho para detectar pragas nas plantações em estágios iniciais. O drone fornece informações sobre a localização e o tipo de praga ao agricultor, permitindo a intervenção rápida.
 
 A IA do sistema armazena dados sobre diferentes espécies de pragas, seus alvos preferenciais e tratamentos sustentáveis. Os agricultores podem utilizar o sistema da PlanTech para obter recomendações personalizadas de tratamento, contribuindo para a preservação do solo e das plantações.
 
