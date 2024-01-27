@@ -335,7 +335,7 @@ while opcaoMenu != 9:
                         + '\n Além disso, estes pequenos agricultores se sentirão mais confiantes e seguros em expandir sua área de plantio.')
 
 
-#Opção 2 do menu: desejo saber sobre o funcionamenento do drone
+
       if opcaoMenu == 2:
             print("\n----PlanTech ----"
                         + '\n Será desenvolvido um drone robô que detecta pragas nas plantações e informa suas localidades para o combate.'
@@ -377,9 +377,9 @@ while opcaoMenu != 9:
             print(IndicarTratamento())
             
 
-#Opção 7 do menu: feedback
+
       if opcaoMenu == 7:
-            #Menu que pergunta para o usuário a escolha do feedback.
+           
             feedback = int(input('\nPrimeiro, informe o tipo do feedback: '
                               +'\n (1) - Resolução de suas dúvidas'
                               +'\n (2) - Performace do sistema' 
@@ -388,7 +388,7 @@ while opcaoMenu != 9:
                               +'\n (5) - Experiência com o site'
                               +'\n -Opção: '))
             
-            #Se o usuário digitar um número maior que 5 ou menor que 1, aparece uma mensagem de erro.
+            
             if feedback < 1 or feedback > 5:
                   print('Escolha incorreta! Escolha um número de 1 a 5.')
 
@@ -436,13 +436,13 @@ while opcaoMenu != 9:
                         print(f'\nA PlanTech agradece pelo seu feedback!')
 
 
-#Opção 8 do menu: outro
+
       if opcaoMenu == 8:
             print('\nVeja só:')
             print('1. Se quiser retirar suas dúvidas mais específicas, entre no nosso ChatBot que ele te auxiliará')
             print('2. Se quer textos mais explicativos como agricultura, IAs generativas ou outros textos, entre no site da PlanTech')
 
 
-#Opção 9 do menu: encerramento
+
       if opcaoMenu == 9:
             print('\nMuito obrigado, até a próxima!')
