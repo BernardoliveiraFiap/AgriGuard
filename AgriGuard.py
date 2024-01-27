@@ -348,7 +348,7 @@ while opcaoMenu != 9:
                         + '\n Além disso, o agricultor pode contribuir com informações de pragas e tratamentos que não tenham no site.')
 
 
-#Opção 3 do menu: quero comprar um drone para detectar pragas 
+
       if opcaoMenu == 3:
             print("\nA PlanTech ainda é um projeto em desenvolvimento e, por isso, não é possível realizar a compra dos drones.")
             opcSimulacao = input("\nDeseja realizar uma simulação da compra dos drone que serão disponibilizados pela PlanTech? \n(1) - Sim \n(2) - Não \nEscolha uma opção: ")
@@ -357,12 +357,12 @@ while opcaoMenu != 9:
                  Cadastro()
 
 
-#Opção 4 do menu: Identifiquei uma praga na plantação. O que faço agora?
+
       if opcaoMenu == 4:
             print(InformarTratamento())
 
 
-#Opção 5 do menu: quem faz parte do projeto PlanTech?
+
       if opcaoMenu == 5:
             print('\n---Responsáveis pelo projeto PlanTech---'
                   +' \n Douglas Magalhães de Araujo - rm552008'
@@ -372,7 +372,7 @@ while opcaoMenu != 9:
                   +' \n Rafaella Monique do Carmo Bastos - rm552425')
 
 
-#Opção 6 do menu: quero indicar o tratamento para uma praga
+
       if opcaoMenu == 6:
             print(IndicarTratamento())
             
